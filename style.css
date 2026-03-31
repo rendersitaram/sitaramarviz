@@ -10,27 +10,16 @@ body{
   color:white;
 }
 
-/* HERO TEXT */
-.hero-title{
-  font-weight:700;
-  line-height:1.2;
-  letter-spacing:2px;
-  
-  /* 🔥 RESPONSIVE SIZE */
-  font-size:clamp(28px, 8vw, 70px);
+/* HERO */
+.hero{
+  height:100vh;
+  position:relative;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
 }
 
-/* Highlight part */
-.hero-title span{
-  color:#ffb400;
-}
-
-/* Subtitle */
-.hero-subtitle{
-  margin-top:10px;
-  font-size:clamp(14px, 3vw, 20px);
-  color:#ccc;
-}
 .bg-video{
   position:absolute;
   width:100%;
@@ -57,7 +46,6 @@ body{
   text-decoration:none;
   border-radius:30px;
 }
-
 
 /* ABOUT */
 .about{
